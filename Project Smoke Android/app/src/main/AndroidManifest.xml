@@ -59,10 +59,10 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBEoxawPIcnOqDW8uKAkWpflFSax88Eu44"/>
+            android:value="empty"/>
     </application>
     <!-- RELEASE KEY
     <meta-data
         android:name="com.google.android.geo.API_KEY"
-        android:value="AIzaSyBhivEAvdroBgaChekP8MRCv0vWFOXmFLY"/> -->
+        android:value="empty"/> -->
 </manifest>
