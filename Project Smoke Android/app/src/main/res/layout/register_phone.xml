@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical" android:gravity="bottom" android:weightSum="1"
+              android:transitionName="@string/transition_registerPhone" style="@style/Smoky"
+
+        android:id="@+id/layoutBackground">
+    <FrameLayout
+            android:transitionName="@string/transition_registerPhone"
+            android:layout_width="fill_parent"
+            android:layout_height="490dp" android:layout_gravity="bottom"
+            android:background="@drawable/start_background" android:elevation="13dp" style="@style/Smoky">
+
+    <RelativeLayout
+            android:transitionName="@string/transition_registerPhone"
+            android:layout_width="fill_parent"
+            android:id="@+id/layoutChildBackground"
+            android:layout_height="490dp" android:layout_gravity="bottom|center_horizontal"
+            android:background="#ffffffff" android:alpha="0.7" android:elevation="13dp" android:layout_weight="0.12" style="@style/Smoky">
+
+        <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Please confirm your country code and enter your phone number"
+                android:id="@+id/textView" android:layout_gravity="top|center_vertical"
+                android:layout_marginTop="30dp" android:layout_marginLeft="25dp" android:textColor="#ff000000" android:textSize="19dp" style="@style/Smoky"
+            android:layout_marginRight="20dp"
+            android:textAlignment="center"
+            android:autoText="false"
+            android:gravity="center" />
+        <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:background="@android:color/transparent"
+                android:id="@+id/countrySpinner" android:layout_gravity="center_horizontal|top"
+                android:layout_marginTop="120dp"
+            android:elevation="5dp" android:textAlignment="center"
+            android:alpha="1.0"/>
+        <View android:layout_width="fill_parent" android:layout_marginLeft="15dp" android:layout_marginRight="15dp"
+            android:layout_height="1dp" android:layout_alignTop="@id/countrySpinner"
+            android:background="@android:color/darker_gray" android:alpha="0.7" />
+        <View android:layout_width="fill_parent" android:layout_marginLeft="15dp" android:layout_marginRight="15dp"
+            android:layout_height="1dp" android:layout_alignBottom="@id/countrySpinner"
+            android:background="@android:color/darker_gray" android:id="@+id/countrySpinnerEnd" android:alpha="0.7"/>
+
+        <EditText android:layout_width="52dp" android:layout_height="wrap_content" android:inputType="phone" android:ems="10"
+                android:id="@+id/regionNumber" android:layout_alignTop="@id/countrySpinnerEnd"
+                android:layout_marginTop="5dp" android:layout_marginLeft="35dp" android:textColor="#ff000000"
+                android:textAlignment="center" android:textSize="23dp" android:padding="2dp"/>
+
+        <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="phone"
+                  android:ems="10" android:id="@+id/phoneNumber" android:layout_alignTop="@id/countrySpinnerEnd"
+                  android:hint="Your phone number" android:textColorHint="@drawable/text_hint_selector"
+                  android:layout_marginTop="5dp" android:layout_marginLeft="105dp" android:layout_marginRight="15dp"
+                  android:textColor="#ff000000" android:textAlignment="center" android:textSize="23dp" android:padding="2dp" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceSmall" android:layout_marginTop="8dp"
+                  android:text="+" android:layout_alignTop="@id/countrySpinnerEnd" android:layout_alignLeft="@id/regionNumber"
+                  android:layout_marginLeft="-15dp" android:textColor="#ff000000"
+                  android:textSize="23dp"/>
+
+
+        <View android:layout_width="fill_parent" android:layout_marginLeft="15dp" android:layout_marginRight="15dp"
+            android:layout_height="1dp" android:layout_alignBottom="@id/phoneNumber" android:layout_marginBottom="-5dp"
+            android:background="@android:color/darker_gray" android:id="@+id/phoneNumberEnd" android:alpha="0.7"/>
+
+        <View android:layout_width="1dp" android:layout_alignTop="@id/countrySpinnerEnd" android:layout_marginLeft="-12dp"
+            android:layout_height="fill_parent" android:layout_alignLeft="@id/phoneNumber" android:layout_alignBottom="@id/phoneNumberEnd"
+            android:background="@android:color/darker_gray" android:alpha="0.7" />
+    </RelativeLayout>
+
+        <Button android:transitionName="@string/transition_registerPhone" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Continue"
+        android:id="@+id/transitionButton" android:layout_gravity="right|bottom" style="@style/Smoky"
+        android:onClick="onClickVerifyPhone"/>
+    </FrameLayout>
+</LinearLayout>
+

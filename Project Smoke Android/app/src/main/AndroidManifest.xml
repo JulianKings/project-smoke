@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.smoke"
+          android:versionCode="52"
+          android:versionName="0.1 ALPHA">
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+        <receiver
+                android:name=".receivers.IncomingSmsBroadcastReceiver"
+                android:enabled="true"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".services.basicControlService" android:stopWithTask="false"
+            android:enabled="true" android:exported="false"/>
+
+        <activity android:name=".activities.welcomeActivity"
+                  android:label="@string/app_name" android:theme="@style/Smoky.Translucent" />
+        <activity android:name=".activities.registerPhoneActivity"
+                  android:label="@string/app_name" android:theme="@style/Smoky.Translucent" />
+        <activity android:name=".activities.connectPhoneActivity"
+                  android:label="@string/app_name" android:theme="@style/Smoky.Translucent" />
+        <activity android:name=".activities.verifyPhoneByCall"
+                  android:label="@string/app_name" android:theme="@style/Smoky.Translucent" />
+        <activity android:name=".activities.verifyPhoneByMessage"
+                  android:label="@string/app_name" android:theme="@style/Smoky.Translucent" />
+        <activity android:name=".activities.verifyPhoneByApp"
+                  android:label="@string/app_name" android:theme="@style/Smoky.Translucent" />
+        <activity android:name=".activities.selectImageAndNameActivity"
+                  android:label="@string/app_name" android:theme="@style/Smoky.Translucent" />
+        <activity android:name=".activities.mainLayoutActivity"
+                  android:label="@string/app_name" android:windowSoftInputMode="adjustPan" android:theme="@style/Smoky.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER" android:theme="@style/Smoky.Translucent"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.conversationActivity"
+                  android:label="@string/app_name" android:theme="@style/Smoky.Translucent" />
+        <activity android:name=".activities.searchGroupActivity"
+            android:label="@string/app_name" android:theme="@style/Smoky.Translucent" />
+        <activity android:name=".activities.selectAccountActivity"
+            android:label="@string/app_name" android:theme="@style/Smoky.Translucent" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBEoxawPIcnOqDW8uKAkWpflFSax88Eu44"/>
+    </application>
+    <!-- RELEASE KEY
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyBhivEAvdroBgaChekP8MRCv0vWFOXmFLY"/> -->
+</manifest>

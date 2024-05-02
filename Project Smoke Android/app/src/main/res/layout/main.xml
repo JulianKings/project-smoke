@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical" android:gravity="bottom" android:weightSum="1"
+              android:transitionName="@string/transition_registerPhone" style="@style/Smoky"
+              android:background="@drawable/start_background"
+              android:id="@+id/layoutBackground">
+     <FrameLayout
+            android:transitionName="@string/transition_registerPhone"
+            android:layout_width="fill_parent"
+            android:layout_height="177dp" android:layout_gravity="bottom"
+            android:background="#ffffffff" android:alpha="0.7" android:elevation="13dp" android:layout_weight="0.12"
+            style="@style/Smoky" android:id="@+id/layoutChildBackgrund">
+        <Button
+                android:transitionName="@string/transition_registerPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Continue"
+                android:onClick="onClickTransition"
+                android:id="@+id/transitionButton" android:layout_gravity="right|bottom" style="@style/Smoky"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Welcome to the BETA of Project Smoke, an innovative instant messaging application designed to redefine how we interact with the people around us. Take a look!"
+                android:id="@+id/textView" android:layout_gravity="top"
+                android:layout_marginTop="15dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:textColor="#ff000000" android:textSize="17dp" style="@style/Smoky"/>
+    </FrameLayout>
+</LinearLayout>

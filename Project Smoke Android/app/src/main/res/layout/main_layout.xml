@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="#ffffffff">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      xmlns:app="http://schemas.android.com/apk/res/com.smoke"
+                      android:orientation="vertical"
+                      android:layout_width="match_parent"
+                      android:layout_height="7dp" android:background="@color/tabs_color"></LinearLayout>
+
+    <com.ogaclejapan.smarttablayout.SmartTabLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/viewpagertab"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tab_height"
+            android:clipToPadding="false"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:background="@color/tabs_color"
+            app:stl_defaultTabTextColor="@color/white"
+            app:stl_defaultTabTextMinWidth="120dp"
+            app:stl_indicatorAlwaysInCenter="false"
+            app:stl_indicatorColor="@color/accent"
+            app:stl_indicatorCornerRadius="1.5dp"
+            app:stl_indicatorInterpolation="smart"
+            app:stl_indicatorThickness="2dp"
+            app:stl_underlineColor="@color/transparent"
+            />
+
+    <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/viewpagertab"
+            />
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="fill_parent" android:gravity="center_horizontal"
+          android:layout_height="fill_parent" android:background="#ffffff" android:id="@+id/setNameHolder">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="center_horizontal" android:layout_height="wrap_content"
+        android:layout_width="fill_parent" android:layout_marginTop="100dp" android:id="@+id/selectImageHolder">
+
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/selectImage"
+            android:layout_width="150dp"  android:layout_height="150dp"
+            android:src="@drawable/no_photo" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <Button
+            android:layout_width="wrap_content" android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content" android:layout_marginRight="24dp"
+            android:focusable="true" android:focusableInTouchMode="true" android:background="#ffffff"
+            android:text="Continue" android:layout_alignParentBottom="true" android:textColor="#B1B1B1"
+            android:id="@+id/continueButton" android:layout_alignParentRight="true" android:onClick="continueToApp"/>
+
+    <Button
+        android:layout_width="wrap_content" android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content" android:layout_marginLeft="14dp"
+        android:focusable="true" android:focusableInTouchMode="true" android:background="#ffffff"
+        android:text="Skip" android:layout_alignParentBottom="true" android:textColor="#B1B1B1"
+        android:id="@+id/skipButton" android:layout_alignParentLeft="true" />
+
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="45dp" android:layout_marginTop="28dp"
+                    android:layout_marginLeft="9dp" android:layout_marginRight="9dp" android:id="@+id/nameHolder">
+
+        <ImageView android:id="@+id/nameEmojiButton" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:padding="4dp" android:src="@drawable/orca_emoji_category_people" android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true" android:layout_marginLeft="10dp" android:layout_marginBottom="8dp" />
+
+        <github.ankushsachdeva.emojicon.EmojiconEditText  android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/username"
+                android:layout_alignParentBottom="true" android:textColor="#000000" android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp" android:layout_marginRight="10dp" android:hint="Enter your name" android:textColorHint="@drawable/text_hint_selector"
+                android:padding="2dp" android:layout_marginBottom="10dp"/>
+
+    </RelativeLayout>
+
+    <View android:layout_width="fill_parent" android:layout_marginLeft="15dp" android:layout_marginRight="15dp"
+        android:layout_height="1dp" android:layout_alignBottom="@id/nameHolder" android:layout_marginBottom="5dp"
+        android:background="@android:color/darker_gray" android:alpha="0.7"/>
+
+    <View android:layout_width="fill_parent" android:layout_marginLeft="15dp" android:layout_marginRight="15dp"
+        android:layout_height="1dp" android:layout_alignTop="@id/nameHolder"
+        android:background="@android:color/darker_gray" android:alpha="0.7"/>
+
+
+    <RelativeLayout android:layout_width="214dp" android:layout_height="10dp" android:layout_below="@id/selectImageHolder" android:layout_marginTop="9dp"
+        android:layout_marginLeft="9dp" android:layout_marginRight="9dp" android:id="@+id/invisibleHolder" android:layout_centerHorizontal="true" />
+
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/invisibleHolder" android:layout_marginTop="13dp"
+        android:layout_marginLeft="9dp" android:layout_marginRight="9dp" android:id="@+id/takePhotoHolder"
+        android:onClick="takeAPicture" android:layout_alignLeft="@id/invisibleHolder">
+
+        <RelativeLayout android:layout_width="35dp" android:layout_height="35dp" android:background="@drawable/circular_shape"
+           android:gravity="center" android:id="@+id/takePhotoIconHolder">
+            <ImageView android:id="@+id/takePhotoIcon"
+            android:layout_width="15dp"  android:layout_height="15dp"
+            android:src="@drawable/camera"
+            android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:gravity="center" android:layout_toRightOf="@id/takePhotoIconHolder" android:layout_centerVertical="true">
+            <TextView android:id="@+id/takePhotoText" android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"  android:layout_height="wrap_content"
+                android:text="Take new photo" android:textSize="18dp" android:textColor="#B1B1B1" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/takePhotoHolder" android:layout_marginTop="9dp"
+        android:layout_marginLeft="9dp" android:layout_marginRight="9dp" android:id="@+id/fromGalleryHolder"
+        android:onClick="selectImage" android:layout_alignLeft="@id/invisibleHolder">
+
+        <RelativeLayout android:layout_width="35dp" android:layout_height="35dp" android:background="@drawable/circular_shape"
+            android:gravity="center" android:id="@+id/fromGalleryIconHolder">
+            <ImageView android:id="@+id/fromGalleryIcon"
+                android:layout_width="15dp"  android:layout_height="15dp"
+                android:src="@drawable/gallery"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:gravity="center" android:layout_toRightOf="@id/fromGalleryIconHolder" android:layout_centerVertical="true">
+            <TextView android:id="@+id/fromGalleryText" android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"  android:layout_height="wrap_content"
+                android:text="Import from gallery" android:textSize="18dp" android:textColor="#B1B1B1" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/fromGalleryHolder" android:layout_marginTop="9dp"
+        android:layout_marginLeft="9dp" android:layout_marginRight="9dp" android:id="@+id/predefinedHolder" android:layout_alignLeft="@id/invisibleHolder">
+
+        <RelativeLayout android:layout_width="35dp" android:layout_height="35dp" android:background="@drawable/circular_shape"
+            android:gravity="center" android:id="@+id/predefinedIconHolder">
+            <ImageView android:id="@+id/predefinedIcon"
+                android:layout_width="15dp"  android:layout_height="15dp"
+                android:src="@drawable/predefined"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:gravity="center" android:layout_toRightOf="@id/predefinedIconHolder" android:layout_centerVertical="true">
+            <TextView android:id="@+id/predefinedText" android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"  android:layout_height="wrap_content"
+                android:text="Predefined images" android:textSize="18dp" android:textColor="#B1B1B1" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <View android:layout_width="fill_parent" android:layout_marginLeft="15dp" android:layout_marginRight="15dp"
+        android:layout_height="1dp" android:layout_alignBottom="@id/predefinedHolder" android:layout_marginBottom="-15dp"
+        android:background="@android:color/darker_gray" android:alpha="0.7"/>
+
+</RelativeLayout>

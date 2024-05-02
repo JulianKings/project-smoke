@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api/API Manager.iml" filepath="$PROJECT_DIR$/api/API Manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat/Chat Server.iml" filepath="$PROJECT_DIR$/chat/Chat Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/database/Database Server.iml" filepath="$PROJECT_DIR$/database/Database Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/administration/Housekeeping Server.iml" filepath="$PROJECT_DIR$/administration/Housekeeping Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/master/Master Server.iml" filepath="$PROJECT_DIR$/master/Master Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proxy/Proxy Server.iml" filepath="$PROJECT_DIR$/proxy/Proxy Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/groups/Rooms Server.iml" filepath="$PROJECT_DIR$/groups/Rooms Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SDK/SDK.iml" filepath="$PROJECT_DIR$/SDK/SDK.iml" />
+    </modules>
+  </component>
+</project>

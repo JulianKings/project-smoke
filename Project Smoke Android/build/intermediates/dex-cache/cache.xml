@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\libs\google-play-services.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0cc4583d020880e34274a4c7b8ac772d96ecdac7">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\2\google-play-services_af49460af7602e06d2ea47d1c3256cac1b3c62a6\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_918ff2ad3a9b2d23de079bc1af074f178fbc872a\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.github.ppamorim\dragger\1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="2cb5ea77a30fe4914a3ce7d6610451e7ef2752ff">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.github.ppamorim-dragger-1.1_a21cabdd329b095c6932f0a5381f4fad99c2f37e\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-vision-8.4.0_848ba23e73d3d6a63ba6a9ed102ba6a3c60711d9\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-drive-8.4.0_7fb86c87dc1355985bacebf8d4712ed1b53e28cb\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-appinvite-8.4.0_87b46b5a9a303d938d9fff36f36a54e765dcaaf0\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-wallet-8.4.0_aae206eb1b91c0f56f640b48f577c2103c03b74b\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-identity-8.4.0_676dd9919423563ccf4c7439c1b3c5b33e75fbd4\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-fitness-8.4.0_ab026a2ee441865e8a56edbf12ccd97c53131d71\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-appcompat-v7-23.0.0_76d1c17c8aa66e3cc6624e7e725aaa4df6215952\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-panorama-8.4.0_f7c1e84d897bd29f0b996e97ec9fa326a9a9fc79\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\julli_000\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\support-annotations-23.2.0_a674da1c59b28ebd460c15648a13c300f83e6d4b\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-cast-8.4.0_dc4c411efd13d803198de77c6618bdc75f9a5968\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-nearby-8.4.0_c4ea35e2a8b54d37d5fd402471877eb084977d3a\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\libs\dexmaker-mockito-1.1-custom.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="54b9a33024099564f9b43933b4b04446b83178f4">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\2\dexmaker-mockito-1.1-custom_a763ee2f2ad6d0798a2d3ea2f08f6eecf9010698\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-maps-8.4.0_8082f9769e478f2644fb96e652529ac8c2d761d1\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\internal_impl-23.0.0_a1daffb83c7562f1dd280ca4fce9657bc6618ed8\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-analytics-8.4.0_798f6e9db8ddff6730912374781310c902d616bb\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-measurement-8.4.0_b7de3c1dbe5c14b6b561fcabc578917d049f41c0\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-gcm-8.4.0_a0855bd58d44cd3f3470cb6575b6b2c25120f6cf\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\libs\netty-all-5.0.0.Alpha2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="09870d1ff5e71352077776a255f9d1494486af16">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\2\netty-all-5.0.0.Alpha2_7e9d15e0a14de2d56d4998f193065b51cd251ee5\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-games-8.4.0_8ed1d37e100fe5de6269e1f838e3159d89082f61\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-plus-8.4.0_96f4997f53cff1a7283b2fadf9e50e827805bc73\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-ads-8.4.0_335006a375ec474587826e982e64dfd5d7066c99\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-support-v4-23.2.0_7cfd8566630aab2c1413876f30c0c49161d183e0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\julli_000\.gradle\caches\modules-2\files-2.1\com.facebook.rebound\rebound\0.3.8\c8b90640dddaf1e7ad75d7cb00b09a44b3788f7e\rebound-0.3.8.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c8b90640dddaf1e7ad75d7cb00b09a44b3788f7e">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\rebound-0.3.8_838a2d801169ebd5c1f763de8cc4bd5376dd40b5\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_1221ca78183a57fa3649c1f090cfac9e91f4e9b7\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\libs\dexmaker-1.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="cf5f9a43360bd88919ce86780c56e7639a116956">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\2\dexmaker-1.1_19e52810bd4d2ec997a46614b6c3144f866c0231\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.github.glomadrian\CodeInput\1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e46a0fbe8684ff4683784d2e2f9f0269f238c7a9">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.github.glomadrian-CodeInput-1.1_ef51f8e509f2b577d8211cfafea979c3187548dd\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-mediarouter-v7-23.0.0_b2499afd23662f9a9dad7e2659d0231b2259fee8\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\internal_impl-23.2.0_635a0af3f36468725e327195f8e53b3f751ccdad\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\libs\junit-4.8.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f2975548f836416306ef1dee748d956f04733915">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\2\junit-4.8.1_35aae2947d96d67c627f324ad57ee516743256f6\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-location-8.4.0_35304818c8f11577d44c0ca2906333f8770f1f6f\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.android.support-multidex-1.0.1_b55491c6ce570aadf370b4b013402758e9cda58e\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-safetynet-8.4.0_d072b599f03be35f3c59abc6eb2c041ab90781ad\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-auth-8.4.0_a0760649f6a84a790a551e31e99ad826a84aa95c\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-wearable-8.4.0_648badb71836768483aebf6614285083ee2a5e0b\classes.dex" />
+    </item>
+    <item
+        jar="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\IdeaProjects\Project Smoke Android\app\build\intermediates\transforms\dex\release\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_e5a3299603c875f4d849feedd7e355d2febfc915\classes.dex" />
+    </item>
+
+</items>

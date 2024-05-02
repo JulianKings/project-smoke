@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:background="@android:color/transparent"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:tileMode="disabled">
+
+    <RelativeLayout android:id="@+id/groupContentHolder" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+        android:background="#ff1e2c4f" android:gravity="center_horizontal" android:alpha="0.80">
+        <github.ankushsachdeva.emojicon.EmojiconTextView android:textSize="16sp" android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp" android:layout_marginRight="50dp" android:text="THE POTATO"
+            android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/groupName"
+            android:gravity="center" android:singleLine="true" android:alpha="1.0"
+            android:textColor="@color/white" android:textStyle="bold" />
+
+        <github.ankushsachdeva.emojicon.EmojiconTextView android:textSize="11sp" android:layout_below="@id/groupName"
+            android:text="THE POTATO AWAKENS" android:layout_marginLeft="20dp" android:layout_marginTop="5dp"
+            android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15dp"
+            android:layout_marginRight="50dp" android:id="@+id/groupDescription" android:gravity="center"
+            android:singleLine="true" android:alpha="1.0" android:textColor="#ffbbbbbb"/>
+
+        <ImageView android:id="@+id/openGroup" android:src="@drawable/arrow" android:layout_marginLeft="3dp"
+            android:layout_marginTop="1dp" android:layout_marginBottom="1dp" android:layout_marginRight="10dp"
+            android:layout_width="27dp" android:layout_height="27dp" android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" android:alpha="0.8" />
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/groupNotificationHolder" android:layout_width="fill_parent" android:alpha="0.80"
+        android:layout_height="12dp" android:background="@drawable/alpha_gradient" android:layout_above="@id/groupContentHolder">
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/groupNotificationsCount" android:visibility="visible" android:layout_width="wrap_content"
+        android:layout_height="21dp" android:background="@drawable/rectangular_notification_shape_group" android:elevation="3dp"
+        android:layout_below="@id/groupNotificationHolder" android:layout_marginTop="-16dp" android:layout_centerInParent="true">
+        <github.ankushsachdeva.emojicon.EmojiconTextView android:id="@+id/groupNotifications" android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="15" android:textColor="#ff232323" android:textSize="12dp" android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/groupOpenProfile" android:visibility="invisible" android:layout_width="wrap_content"
+        android:layout_height="21dp" android:background="@drawable/rectangular_notification_shape_group" android:elevation="3dp"
+        android:layout_below="@id/groupNotificationHolder" android:layout_marginTop="-16dp" android:layout_centerInParent="true">
+        <ImageView android:id="@+id/groupProfileIcon" android:src="@drawable/profile" android:layout_marginLeft="3dp"
+            android:layout_marginTop="1dp" android:layout_marginBottom="1dp" android:layout_marginRight="3dp"
+            android:layout_width="16dp" android:layout_height="16dp" android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/groupStatus" android:visibility="visible" android:layout_width="wrap_content"
+        android:layout_height="21dp" android:background="@drawable/rectangular_notification_shape_group" android:elevation="3dp"
+        android:layout_below="@id/groupNotificationHolder" android:layout_toRightOf="@id/groupNotificationsCount" android:layout_marginTop="-16dp"
+        android:layout_centerInParent="true" android:layout_marginLeft="10dp">
+        <ImageView android:id="@+id/groupStatusIcon" android:src="@drawable/open" android:layout_marginLeft="3dp"
+            android:layout_marginTop="1dp" android:layout_marginBottom="1dp" android:layout_marginRight="3dp"
+            android:layout_width="18dp" android:layout_height="18dp" android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/groupMembersHolder" android:visibility="visible" android:layout_width="wrap_content"
+        android:layout_height="21dp" android:background="@drawable/rectangular_notification_shape_group" android:elevation="3dp"
+        android:layout_below="@id/groupNotificationHolder" android:layout_toLeftOf="@id/groupNotificationsCount" android:layout_marginTop="-16dp"
+        android:layout_centerInParent="true" android:layout_marginRight="10dp" android:gravity="center_vertical">
+        <ImageView android:id="@+id/groupMembersIcon" android:src="@drawable/see_contact" android:layout_marginLeft="3dp"
+            android:layout_centerVertical="true" android:layout_width="18dp" android:layout_height="18dp" />
+
+        <github.ankushsachdeva.emojicon.EmojiconTextView android:id="@+id/groupMembers" android:layout_marginLeft="1dp"
+            android:layout_marginRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/groupMembersIcon" android:text="15"
+            android:textColor="#ff232323" android:textSize="12dp" android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

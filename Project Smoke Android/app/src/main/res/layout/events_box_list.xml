@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:weightSum="2" android:background="@android:color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp" android:id="@+id/leftImageHolder">
+
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="55dp" android:alpha="0.8"
+            android:layout_alignParentBottom="true" android:background="@color/black">
+
+            <github.ankushsachdeva.emojicon.EmojiconTextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/leftImageText"
+                android:textColor="@color/white" android:text="Potato in pijamas" android:gravity="center_vertical"
+                android:paddingLeft="12dp" android:paddingTop="5dp" android:paddingBottom="5dp" android:textSize="12dp"
+                android:textStyle="bold" android:paddingRight="12dp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout android:layout_width="2dp" android:layout_weight="0"
+        android:background="@android:color/white" android:layout_height="fill_parent"/>
+
+    <RelativeLayout android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+        android:layout_marginRight="2dp" android:id="@+id/rightImageHolder">
+
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="55dp" android:alpha="0.8"
+            android:layout_alignParentBottom="true" android:background="@color/black">
+
+            <github.ankushsachdeva.emojicon.EmojiconTextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/rightImageText"
+                android:textColor="@color/white" android:text="Potato in pijamas" android:gravity="center_vertical"
+                android:paddingLeft="12dp" android:paddingTop="5dp" android:paddingBottom="5dp" android:textSize="12dp"
+                android:textStyle="bold" android:paddingRight="12dp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

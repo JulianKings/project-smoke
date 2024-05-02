@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:id="@+id/groupContainer">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:orientation="vertical" android:id="@+id/magicContainer"
+         android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:id="@+id/groupTitleHolder"
+            android:layout_width="fill_parent" android:layout_height="40dp" android:background="#BD043E"
+            android:elevation="3dp" android:padding="5dp" android:gravity="center_vertical" >
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Most popular groups" android:id="@+id/groupBarTitle" android:layout_alignParentLeft="true"/>
+        </RelativeLayout>
+
+        <TextView android:id="@+id/groupListId" android:layout_width="1dp" android:layout_height="1dp"
+            android:visibility="gone"/>
+
+        <ListView android:layout_width="fill_parent" android:layout_height="380dp"
+                  android:id="@+id/groups" android:layout_marginTop="40dp"
+                  android:divider="@color/white" android:dividerHeight="2dp" />
+
+    </RelativeLayout>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:orientation="vertical" android:id="@+id/magicClick"
+         android:layout_width="fill_parent" android:layout_marginTop="40dp"
+         android:layout_height="380dp" android:background="@color/transparent" />
+</RelativeLayout>

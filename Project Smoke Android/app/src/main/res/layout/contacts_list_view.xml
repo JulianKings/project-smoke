@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:id="@+id/contactHolder">
+        <RelativeLayout android:padding="5dp" android:layout_marginBottom="3dp" android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" android:id="@+id/nameHolder">
+
+            <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/icon" android:layout_width="47dp"
+            android:layout_height="47dp" android:layout_marginRight="7dip" android:contentDescription="TODO"
+            android:src="@drawable/ic_launcher" android:layout_marginLeft="5dp" android:layout_marginTop="2dp" />
+
+            <github.ankushsachdeva.emojicon.EmojiconTextView android:id="@+id/contactDescription"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" android:layout_toRightOf="@id/icon"
+            android:singleLine="true" android:text="Description" android:textColor="#BDBDBD" android:textSize="12dp"
+            android:layout_marginLeft="4dp" android:layout_marginRight="100dp" android:layout_marginTop="28dp"/>
+
+            <github.ankushsachdeva.emojicon.EmojiconTextView android:id="@+id/contactName"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentTop="true"
+            android:layout_alignWithParentIfMissing="true" android:layout_toRightOf="@id/icon" android:gravity="center_vertical"
+            android:textStyle="bold" android:text="Example application" android:textColor="#000000"
+            android:textSize="15dp" android:layout_marginLeft="4dp" android:layout_marginRight="100dp"
+            android:layout_marginTop="6dp" />
+
+            <github.ankushsachdeva.emojicon.EmojiconTextView android:id="@+id/contactLastSeen"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" android:layout_marginRight="10dp" android:layout_marginTop="5dp"
+            android:text="11:43 pm" android:textColor="#BDBDBD" android:textSize="12dp" />
+
+            <RelativeLayout android:id="@+id/contactNotificationsHolder" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/rectangular_notification_shape"
+                android:layout_alignParentRight="true" android:layout_marginRight="10dp" android:layout_marginTop="26dp">
+                <github.ankushsachdeva.emojicon.EmojiconTextView android:id="@+id/contactNotifications" android:layout_marginLeft="3dp"
+                    android:layout_marginTop="2dp" android:layout_marginBottom="2dp" android:layout_marginRight="3dp" android:elevation="3dp"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"
+                    android:text="15" android:textColor="#BDBDBD" android:textSize="11dp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/conversationHolder" android:layout_marginTop="60dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="10dp" android:layout_width="fill_parent" android:layout_height="300dp"
+                        android:visibility="gone" android:paddingTop="9dp" android:paddingBottom="9dp" android:paddingRight="15dp" android:paddingLeft="30dp">
+            <com.nhaarman.listviewanimations.itemmanipulation.DynamicListView xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:id="@+id/conversationsList" android:layout_width="wrap_content" android:layout_height="220dp"
+                      android:layout_marginLeft="30dp"/>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="50dp"
+                            android:layout_alignParentBottom="true" android:layout_marginRight="60dp" android:gravity="center_vertical"
+                            android:layout_alignEnd="@id/conversationsList" android:background="@drawable/chatbox">
+
+                <ImageView android:id="@+id/emojiMiniButton" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:src="@drawable/orca_emoji_category_people" android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true" android:layout_marginBottom="8dp"/>
+
+                <github.ankushsachdeva.emojicon.EmojiconEditText android:layout_width="fill_parent"
+                    android:layout_height="40dp" android:id="@+id/conversationAnswer"
+                    android:layout_marginLeft="30dp" android:layout_marginTop="2dp"
+                    android:textColor="#000000" android:background="#E0E1E4" />
+            </RelativeLayout>
+
+            <Button android:layout_width="50dp" android:layout_height="wrap_content"
+                    android:text=">" android:id="@+id/sendButton" android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true" android:layout_marginBottom="2dp"
+                    android:onClick="onSendClick"/>
+
+            <TextView android:id="@+id/contactId" android:layout_width="1dp" android:layout_height="1dp"
+                    android:visibility="gone"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

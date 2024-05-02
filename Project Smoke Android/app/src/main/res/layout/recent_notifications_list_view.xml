@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:id="@+id/notificationHolder">
+        <RelativeLayout android:padding="5dp" android:layout_marginBottom="3dp" android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" android:id="@+id/nameHolder">
+
+            <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/notificationIcon"
+                android:layout_width="35dp" android:layout_height="35dp" android:layout_centerVertical="true"
+                android:src="@drawable/ic_launcher" android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp" android:layout_marginBottom="2dp" />
+
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/notificationIcon" android:layout_marginTop="5dp"
+                android:layout_marginLeft="8.5dp" android:layout_centerVertical="true"
+                android:padding="5dp" android:background="@drawable/notification_message"
+                android:id="@+id/notificationMessageHolder" android:gravity="left">
+
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/notificationTextHolder">
+                    <github.ankushsachdeva.emojicon.EmojiconTextView android:id="@+id/notificationText"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textSize="12dp" android:text="Content"
+                        android:textColor="#000000" />
+
+                </RelativeLayout>
+
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/notificationHourHolder" android:layout_alignParentBottom="true" android:layout_toEndOf="@id/notificationTextHolder"
+                    android:layout_marginLeft="-45sp" android:layout_marginTop="5dp" >
+
+                    <github.ankushsachdeva.emojicon.EmojiconTextView android:id="@+id/contactLastSeen"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp"
+                        android:text="11:43 pm" android:textColor="#3b3b3b" android:textSize="9sp"/>
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="30dp" android:layout_height="30dp" android:rotation="270" android:layout_marginLeft="21dp"
+                android:background="@drawable/basic_arrow" android:layout_centerVertical="true"></RelativeLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

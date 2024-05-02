@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Project Smoke">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/javolution-core-java-6.1.0-20140103.154957-9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/netty-all-4.1.38.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="70dp" android:background="#ffffffff" android:alpha="0.7">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Potato!" android:textColor="#000009"
+            android:id="@+id/textView6" android:layout_gravity="center_horizontal" android:textSize="37dp"
+            android:layout_margin="13dp"/>
+</LinearLayout>

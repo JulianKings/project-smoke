@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent" android:tileMode="repeat"
+    android:layout_height="match_parent" android:background="#FFFFFF">
+
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:id="@+id/profileAccountHolder" android:gravity="center_horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/profileIcon" android:layout_width="120dp"
+            android:layout_height="120dp" android:src="@drawable/ic_launcher" android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/profileWelcomeInput"
+            android:text="Welcome back," android:textColor="#ff4b4b4b" android:layout_below="@id/profileIcon"
+            android:layout_marginTop="12dp" android:textSize="14dp" android:layout_centerHorizontal="true" />
+
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/profileSneakyNameHolder" android:layout_below="@id/profileWelcomeInput"
+            android:layout_centerHorizontal="true">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/profileSneakyName"
+                android:text="Mr. proper" android:textColor="#ffffff" android:layout_marginTop="6dp"
+                android:textSize="32dp" android:textStyle="bold"
+                android:singleLine="true" android:layout_marginLeft="2dp" />
+        </RelativeLayout>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/profileName"
+            android:text="Mr. proper" android:textColor="#ff20385f" android:layout_below="@id/profileWelcomeInput"
+            android:layout_marginTop="4dp" android:textSize="32dp" android:layout_centerHorizontal="true"
+            android:textStyle="bold" android:singleLine="true" />
+
+        <ImageView android:layout_width="35dp" android:layout_height="35dp" android:layout_centerVertical="true"
+            android:src="@drawable/arrow_left" android:layout_marginLeft="10dp" android:alpha="0.4"/>
+
+        <ImageView android:layout_width="35dp" android:layout_height="35dp" android:layout_centerVertical="true"
+            android:src="@drawable/arrow_right" android:layout_marginRight="10dp" android:layout_alignParentRight="true"
+            android:alpha="0.4" />
+
+        
+    </RelativeLayout>
+
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:id="@+id/currentAccountNotifications" android:paddingTop="15dp"
+        android:layout_below="@id/profileAccountHolder">
+
+
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="75dp" android:id="@+id/profileNotificationsContentHolder"
+            android:layout_marginBottom="5dp" android:layout_marginRight="5dp" android:background="@drawable/notifications_huge_holder">
+
+            <com.nhaarman.listviewanimations.itemmanipulation.DynamicListView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/recentNotificationsList" android:layout_width="fill_parent"
+                android:descendantFocusability="beforeDescendants"
+                android:layout_height="fill_parent" android:layout_marginBottom="50dp" />
+
+            <Button android:layout_width="65dp" android:layout_height="30dp"
+                android:layout_marginRight="20dp" android:layout_marginBottom="10dp"
+                android:focusable="true" android:focusableInTouchMode="true"
+                android:background="#ffffff" android:text="Continue" android:textColor="#B1B1B1"
+                android:textSize="10dp" android:id="@+id/continueButton" android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" android:onClick="continueToMainActivity" />
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true" android:id="@+id/profileNotificationsHolder" >
+
+            <RelativeLayout android:layout_width="wrap_content" android:layout_centerVertical="true"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout android:layout_width="67dp" android:layout_height="wrap_content" android:id="@+id/profileAccountNotificationsHolder"
+                    android:background="@drawable/notifications_count_holder" android:layout_marginLeft="9.5dp">
+
+                    <com.vj.widgets.AutoResizeTextView android:layout_width="26dp" android:layout_height="25dp"
+                        android:id="@+id/profileAccountNotifications" android:text="115" android:textColor="#ff20385f"
+                        android:textSize="17sp" android:textStyle="bold" android:singleLine="true"
+                        android:layout_centerInParent="true" android:gravity="center"
+                        android:layout_marginTop="15dp" android:layout_marginBottom="15dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout android:layout_width="65dp" android:layout_height="wrap_content" android:id="@+id/profileGroupNotificationsHolder"
+                    android:background="@drawable/notifications_count_holder_center" android:layout_below="@id/profileAccountNotificationsHolder"
+                    android:layout_marginLeft="9.5dp" android:gravity="center">
+
+                    <com.vj.widgets.AutoResizeTextView android:layout_width="26dp" android:layout_height="25dp"
+                        android:id="@+id/profileGroupNotifications" android:text="20" android:textColor="#ff20385f"
+                        android:textSize="17sp" android:textStyle="bold" android:singleLine="true"
+                        android:layout_centerInParent="true" android:gravity="center"
+                        android:layout_marginTop="15dp" android:layout_marginBottom="15dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout android:layout_width="65dp" android:layout_height="wrap_content" android:id="@+id/profileEventsNotificationsHolder"
+                    android:background="@drawable/notifications_count_holder" android:layout_marginLeft="9.5dp"
+                    android:layout_below="@id/profileGroupNotificationsHolder">
+
+                    <com.vj.widgets.AutoResizeTextView android:layout_width="26dp" android:layout_height="26dp"
+                        android:id="@+id/profileEventsNotifications" android:text="3335" android:textColor="#ff20385f"
+                        android:textSize="17sp" android:textStyle="bold" android:singleLine="true"
+                        android:layout_centerInParent="true" android:gravity="center"
+                        android:layout_marginTop="15dp" android:layout_marginBottom="15dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout android:layout_width="65dp" android:layout_height="wrap_content" android:id="@+id/profileRecentContactOne"
+                    android:background="@drawable/notifications_count_holder" android:layout_marginLeft="9.5dp"
+                    android:layout_below="@id/profileEventsNotificationsHolder" android:layout_marginTop="-1dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/contactOneIcon"
+                        android:layout_width="30dp" android:layout_height="30dp" android:layout_centerInParent="true"
+                        android:src="@drawable/ic_launcher" android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp" android:layout_marginBottom="10dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout android:layout_width="65dp" android:layout_height="wrap_content" android:id="@+id/profileRecentContactTwo"
+                    android:background="@drawable/notifications_count_holder" android:layout_marginLeft="9.5dp"
+                    android:layout_below="@id/profileRecentContactOne" android:layout_marginTop="-1dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/contactTwoIcon"
+                        android:layout_width="30dp" android:layout_height="30dp" android:layout_centerInParent="true"
+                        android:src="@drawable/ic_launcher" android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp" android:layout_marginBottom="10dp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

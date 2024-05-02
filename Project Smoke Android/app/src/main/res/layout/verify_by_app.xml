@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:gravity="bottom" android:weightSum="1"
+    android:transitionName="@string/transition_registerPhone" style="@style/Smoky"
+    android:id="@+id/layoutBackground">
+
+    <FrameLayout
+        android:transitionName="@string/transition_registerPhone"
+        android:layout_width="fill_parent"
+        android:id="@+id/layoutChildBackground"
+        android:layout_height="135dp" android:layout_gravity="top|bottom|center_horizontal"
+        android:background="#ff707070" android:elevation="17dp" android:layout_weight="0.12" style="@style/Smoky">
+
+        <com.github.glomadrian.codeinputlib.CodeInput
+            android:id="@+id/verificationCode" android:textSize="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:underline_color="#ffffff"
+            app:underline_selected_color="#ffffff" app:text_color="#ffffff" app:hint_color="#ffffff" app:hint_text="Pin code"
+            app:codes="4" android:layout_marginTop="18dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue" android:onClick="continueToApp"
+            android:id="@+id/continueToApp" android:layout_gravity="right|bottom" android:layout_marginBottom="7dp"
+            android:layout_marginRight="7dp"/>
+    </FrameLayout>
+</LinearLayout>

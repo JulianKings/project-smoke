@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        applicationId "com.smoke"
+        minSdkVersion 23
+        targetSdkVersion 26
+
+        // Enabling multidex support.
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    dexOptions {
+        javaMaxHeapSize "2048M"
+        jumboMode = true
+    }
+
+    repositories {
+        google()
+        maven { url "http://dl.bintray.com/glomadrian/maven" }
+        maven { url "https://jitpack.io" }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:multidex:1.0.1'
+    implementation 'com.android.support:support-v4:26.1.0'
+    implementation 'com.github.glomadrian:CodeInput:1.1@aar'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+}

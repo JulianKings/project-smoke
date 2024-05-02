@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:id="@+id/listHolder" android:padding="3dp"
+                android:paddingBottom="0dp">
+
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/messageHolder" android:background="@drawable/conversation_message"
+            android:layout_marginRight="60dp" android:layout_marginLeft="1.5dp">
+
+        <github.ankushsachdeva.emojicon.EmojiconTextView
+            android:id="@+id/conversationMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="false"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:text="Description"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+    </RelativeLayout>
+
+    <!-- <RelativeLayout android:layout_width="27dp" android:layout_height="27dp" android:rotation="270"
+        android:layout_marginLeft="-20dp" android:background="@drawable/basic_arrow_chat"
+        android:layout_centerVertical="true" ></RelativeLayout> -->
+</RelativeLayout>

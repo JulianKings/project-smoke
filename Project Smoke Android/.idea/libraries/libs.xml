@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/dexmaker-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/libs/junit-4.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/libs/rebound-0.3.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/libs/google-play-services.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/libs/dexmaker-mockito-1.1-custom.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/libs/netty-all-4.1.38.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
